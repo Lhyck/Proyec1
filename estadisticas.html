@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body class="container">
+    <div class="container-fluid fondo">
+
+        <div class="alert alert-primary">
+            <header class="row">
+                <div class="col-md-1 ">
+                    <img src="img/diary_120704.png" width="30" height="30" class="d-inline-block align-top">
+                </div>
+                <div class="col-md-11">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link " href="portal.html">Portal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="cotizacion.html">Cotizaci&oacuten</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="traductor.html">Traductor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="estadisticas.html">Estad&iacutesticas</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </header>
+        </div>
+
+        <div class="card">
+            <div class="card-header text-left">
+                <p>Formulario de Consulta</p>
+            </div>
+            <div class="card-body ">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3">
+                            <div class="col-md-12 ">
+                                <div class="form-group row text text-left ">
+                                    <label for="txtDe" class="col-md-2">País</label>
+                                    <select class="form-control form-control-sm col-md-10">
+                                            <option>Todo el mundo</option>
+                                            <option>Argentina</option>
+                                            <option>Estados Unidos</option>
+                                            <option>España</option>
+                                            <option>Italia</option>
+                                            <option>Alemania</option>
+                                            
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Casos confirmados</label>
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Curados</label>
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Fallecidos</label>
+                                </div>
+                            </div>
+                            <button type=submit class=" col-sm-12 btn btn-primary btn-sm  ">Consultar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div>
+            <h4>Estadísticas</h4>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped" cellpadding="6">
+                <thead>
+                    <tr>
+                        <th>Ubicación</th>
+                        <th>Casos Confirmados</th>
+                        <th>Casos por 1 mill. de personas</th>
+                        <th>Curados</th>
+                        <th>Fallecidos</th>
+
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><img src="img/covid/mundo.png" width="30px" height="30px" alt=""> Todo el mundo</td>
+                        <td>1.413.416</td>
+                        <td>181,77</td>
+                        <td>298.389</td>
+                        <td>81.200</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/covid/argentina.png" width="30px" height="30px" alt=""> Argentina</td>
+                        <td>1.628</td>
+                        <td>86,28</td>
+                        <td>266</td>
+                        <td>53</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/covid/estados-unidos.png" width="30px" height="30px" alt=""> Estados Unidos</td>
+                        <td>392.285</td>
+                        <td>1.190,61</td>
+                        <td>21.368</td>
+                        <td>12.627</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/covid/espana.png" width="30px" height="30px" alt=""> España</td>
+                        <td>141.942</td>
+                        <td>9.018,61</td>
+                        <td>48.208</td>
+                        <td>14.045</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/covid/italia.png" width="30px" height="30px" alt=""> Italia</td>
+                        <td>135.586</td>
+                        <td>2.250,64</td>
+                        <td>24.892</td>
+                        <td>17.127</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/covid/alemania.png" width="30px" height="30px" alt=""> Alemania</td>
+                        <td>107.653</td>
+                        <td>1.294,82</td>
+                        <td>81.432</td>
+                        <td>2.016</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <div class="alert alert-primary text-right pie" role="alert">
+
+
+                <ul>
+                    <li><img class="band" src="img/instagram_108043.png">@Lhy Digitaler</li>
+                    <li> <img class="band" src="img/whatsapp_108042.png">+5993884094969</li>
+                    <li> <img class="band" src="img/facebook_109862.png">Lhy Digitaler</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+</body>
+
+</html>

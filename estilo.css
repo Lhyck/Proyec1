@@ -1,0 +1,39 @@
+a.nav-link {
+    color: black;
+}
+
+table thead tr th {
+    background: white;
+}
+
+.bordes {
+    border-bottom: solid 1px;
+}
+
+table {
+    background: floralwhite;
+    overflow-y: auto;
+}
+
+.alert-success {
+    background: lightgreen;
+    border-color: lightgreen;
+}
+
+.claseazul {
+    color: blue;
+}
+
+.band {
+    width: 30px;
+    height: 30px;
+}
+
+.band2 {
+    width: 30px;
+}
+
+.titulo {
+    color: dodgerblue;
+    font-family: Impact;
+}
